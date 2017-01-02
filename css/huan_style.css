@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* Reset */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration: none; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+body { font-family: "Microsoft YaHei"; }
+
+/* Common */
+.fl { float:left; display: inline; }
+.fr { float:right; display: inline; }
+.clear { clear:both; }
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; font-size:0; line-height:0; height:0; }
+.clearfix { *zoom:1; /* Õë¶ÔIE6 7 */ }
+
+.bg{ position: absolute; top: 90px; left: 0; width: 100%;}
+.bg img{ width: 100%;}
+
+/*product_clean*/
+.frame{ margin:0 auto; width:100%; height: auto; background: url(../images/bg_clean.jpg) #fff center 0 no-repeat;}
+.frame .sum_kv{width: 100%; height: 650px; margin: 72px auto;}
+.frame .kv_main{width: 957px; height:auto; margin: 0 auto; padding-top: 117px;}
+.frame .kv_main .kv_top{width: 957px; height:403px;}
+.frame .kv_main .kv_top .img_box{width: 313px; height:393px; padding: 10px 0px 0px 62px;}
+.frame .kv_main .kv_top .txt_box{width: 582px; height:314px;}
+.frame .kv_main .kv_top .txt_box .new{width:582px; height: 38px; background: url(../images/txt_new.png) center 0 no-repeat;}
+.frame .kv_main .kv_top .txt_box .jy{width:582px; height: 119px; margin-top: 52px; background: url(../images/txt_jy.png) center 0 no-repeat;}
+.frame .kv_main .kv_bot{width: 957px; height:167px; background: url(../images/txt_wsk_dt.png) no-repeat;}
+.frame .list{width: 1000px; height: auto; margin: 0 auto; margin-bottom: 88px; }
+.frame .title{ width: 100%; height: 43px; margin-top: 118px; margin-bottom: 72px; background: url(../images/txt_10.png) center center no-repeat;}
+
+.frame .list li, .vessel .list li, .content_chirp .list li, .container_avoid .list li{float: left; width: 250px; text-align: center; margin-bottom: 20px;}
+.frame .list li a, .vessel .list li a, .content_chirp .list li a, .container_avoid .list li a{display: block; width: 100%; height: 100%;}
+.frame .list li img, .vessel .list li img, .content_chirp .list li img, .container_avoid .list li img{max-width: 239px; max-height: 154px; margin: 0 auto; margin-bottom:15px;
+																										-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.4)));
+																										-moz-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.4)));
+																										-o-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.4)));
+																										box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.4)));
+																										}
+.frame .list li p, .vessel .list li p, .content_chirp .list li p, .container_avoid .list li p{ font-size:12px; color:#7f7f7f; line-height: 24px;}
+.frame .list li p.change, .vessel .list li p.change, .content_chirp .list li p.change, .container_avoid .list li p.change{ font-size:14px; color:#000;}
+
+/*product_sleep*/
+.vessel{ margin: 0; width:100%; height: 100%; min-width: 1300px; padding-top: 220px; background: url(../images/bg_sleep.jpg) center 0 no-repeat; background-size: cover; -ms-behavior: url(http://www.mgmask.cn/resources/pc/search/css/backgroundsize.min.htc); behavior: url(http://www.mgmask.cn/resources/pc/search/css/backgroundsize.min.htc); }
+.vessel .pro_sm{ width:67%; margin: 0 auto;}
+.vessel .pro_sm img{width: 100%; vertical-align: top;}
+
+.vessel .kv{ width: 100%; height: 578px; margin: 0 auto; margin-top: 72px;}
+.vessel .box{ width: 100%; height:630px; margin: 0 auto; margin-top: 15px;}
+.vessel .box .cloum, .content_chirp .cloum, .container_avoid .cloum{ width:1000px; height: auto; margin: 0 auto; padding-top:76px;  text-align: center;}
+.vessel .box .cloum p{width: 100%; height: 62px; font-size: 48px; line-height: 62px; color: #fff;}
+.vessel .box .cloum span{width: 100%; height: 62px; font-size: 30px; line-height: 52px; color: #fff;}
+.vessel .box .cloum .txtxf{width: 100%; height: 97px; background: url(../images/txt_xh.png) center 0 no-repeat;}
+.vessel .box .cloum .spec{width: 100%; height:319px; margin-top: 70px; background: url(../images/pic_ser.png) center 0 no-repeat;}
+.vessel .list{width: 1000px; height: auto; margin: 0 auto;  margin-bottom: 88px;}
+.content_chirp .title.change{margin-top: 88px;}
+.vessel .title{  width: 100%; height: 43px; margin-top: 0px; margin-bottom: 72px; background: url(../images/txt_04.png) center center no-repeat;}
+
+/*product_chirp*/
+.content_chirp{ width:100%; height: auto; margin: 0 auto; background: url(../images/bg_chirp.jpg) #ffffff  center 0  no-repeat; padding-bottom: 60px;}
+.content_chirp .box{ position: relative; width: 100%; height:auto; margin: 0 auto; margin-top: 72px; padding-bottom: 80px;}
+.content_chirp .box .cloum .proname{ width: 100%; height: 128px; background: url(../images/txt_01.png) center center no-repeat;}
+.content_chirp .box .cloum .txt{width: 362px; height:auto; margin: 0 auto;}
+.content_chirp .box .cloum .txt p{width: 100%; height: 65px; background: url(../images/txt_1.png) center 0 no-repeat;}
+.content_chirp .box .cloum .txt span{ display: block; width: 100%; height: 42px; background: url(../images/txt_02.png) center center no-repeat;}
+.content_chirp .box .cloum.change{padding-top: 0;}
+.content_chirp .box .cloum img{max-width: 902px; max-height: 346px; margin: 0 auto; margin-top: 65px;}
+.content_chirp .box .cloum .md{width: 100%; height: 338px; background: url(../images/pic_md.png) center 0 no-repeat;}
+.content_chirp .list{width: 1000px; height: auto; margin: 0 auto; }
+.content_chirp .box .title{  width: 100%; height: 43px; margin-top: 118px; margin-bottom: 72px; background: url(../images/txt_03.png) center center no-repeat;}
+
+/*product_avoid*/
+.container_avoid{ margin: 0 auto; width:100%; height: auto; background: url(../images/bg_avoid.jpg) center 0 no-repeat;}
+.container_avoid .box{ width: 100%; height:auto; margin: 0 auto; margin-top: 72px; padding-bottom: 80px;}
+.container_avoid .box .cloum .md{width: 100%; height: 338px; margin-top: 110px; background: url(../images/bg_hh.png) bottom left no-repeat; background-position-x:110px; }
+.container_avoid .box .cloum .md span{ display: block; width: 100%; height: 57px; margin-bottom: 35px; text-align: center; line-height: 57px; background: url(../images/txt_yt.png) center 0 no-repeat;}
+.container_avoid .box .cloum .md p{ width: 100%; height:64px; background: url(../images/txt_08.png) center center no-repeat;}
+.container_avoid .box .cloum .proname{ width: 100%; height: 90px; background: url(../images/txt_05.png) center center no-repeat;}
+.container_avoid .box .cloum .txt span{ display:block; width: 100%; height: 42px; background: url(../images/txt_06.png) center center no-repeat;}
+.container_avoid .box .cloum img{max-width: 902px; max-height: 346px; margin: 0 auto; margin-top: 43px;}
+.container_avoid .list{width: 1000px; height: auto; margin: 0 auto; margin-bottom: 88px;}
+.container_avoid .title{ width: 100%; height: 43px; margin-top: 118px; margin-bottom: 72px; background: url(../images/txt_09.png) center center no-repeat;}
+
+
+.frame .list li img.fd, .vessel .list li img.fd, .content_chirp .list li img.fd, .container_avoid .list li img.fd{
+	-moz-transform:scale(1.15); 
+	-webkit-transform:scale(1.15); 
+	-o-transform:scale(1.15); 
+	-moz-transition: -webkit-transform 0.6s;
+	-webkit-transition: -webkit-transform 0.6s;
+	-o-transition: -webkit-transform 0.6s;
+}
+.frame .list li p.txt_line, .vessel .list li p.txt_line, .content_chirp .list li p.txt_line, .container_avoid .list li p.txt_line{text-decoration: underline;}
