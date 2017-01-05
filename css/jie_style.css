@@ -1172,6 +1172,7 @@ h1 a{ display: block; width: 100%; height: 100%;}
 	text-align: center;
 	background: #E1F9F9;
 	padding-bottom:20px;
+	margin:0px;
 }
 .foot a{
 	color: green;
@@ -1563,3 +1564,168 @@ h1 a{ display: block; width: 100%; height: 100%;}
 .user_callback #user_pic span.prev:hover{background:url(../img/5836af12Neb8a56523.png) no-repeat;}
 .user_callback #user_pic span.next:hover{background:url(../img/5836b011N9a4d4531.jpg) no-repeat;}
 .user_callback{background: #088B69;overflow:hidden;}
+
+.content{
+	width: 100%; height: auto; font-family: "微软雅黑"; font-size: 12px; color: #333; line-height: 2em; background: #E1F9F9;
+}
+.content *{margin: 0; padding: 0;}
+a{
+	text-decoration: none; color: #666;
+}
+a:hover{
+	color: #000;
+}
+.content ul,li{
+	list-style-type: none;
+}
+.content img{
+	display: block; margin: 0 auto; vertical-align: middle;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.clearfix:after{
+	content: "."; display: block; height: 0; clear: both; visibility: hidden;
+}
+.more,.more:hover{
+	color: #83c73c;
+}
+
+/*----------------header start----------------*/
+.header_wrap{
+	width: 100%; height: 38px; line-height: 38px; color: #666; background: #f4f4f4; border-bottom: solid 1px #088B69;
+}
+.header, .nav_menu, .notice, .content, .inside_con{
+	width: 1100px; margin: 0 auto;
+}
+.header .corner ul>li{
+	float: left;
+}
+.header .corner ul>li>a{
+	margin: 0 10px;
+}
+.corner .user_li{
+	position: relative;
+}
+.corner .user_li .user_handle{
+	position: absolute; top: 38px; left: 0; padding-bottom: 10px; background: #fff; z-index: 99; width: 80px; text-align: center; border: solid 1px #088B69; display: none;
+}
+.corner .user_li .user_handle a{
+	display: block; line-height: 1em; margin-top: 10px;
+}
+
+/*---------------------content style------------------------*/
+.box2, .box3, .schoolmate, .friendlink{
+	margin-top: 40px;
+}
+.box1{
+	margin-top: 30px;
+}
+.about, .news, .hot, .teachers, .course, .schoolmate, .resource, .exam, .friendlink{
+	border: solid 1px #088B69;
+}
+.content .b_title{
+	height: 46px; line-height: 46px; border-bottom: solid 1px #088B69; overflow: hidden; padding: 0 15px;
+	color:#fff;background: #088B69;	
+}
+.content .b_title h3{
+	font-size: 15px; float: left; font-weight: normal;
+}
+.content .b_title .more{
+	float: right;
+}
+.content .b_wrap{
+	padding: 22px 15px;
+}
+.b_wrap a.detail{
+	color: #0078b6;
+}
+.n_list{
+	width: 335px; margin-bottom: 10px;
+}
+.n_list h4, .t_list h4{
+	font-size: 14px; color: #666; line-height: 1em; margin-bottom: 15px; font-weight: normal;
+}
+.n_list ul li{
+	margin: 3px 0; padding-left: 16px; background: url(../images/icon.png) 0 center no-repeat;
+}
+.n_list li.special{
+	background: none; overflow: hidden; padding-left: 0; margin-bottom: 15px;
+}
+.n_list li.special .n_img{
+	float: left; width: 150px; height: 110px; border: solid 1px #088B69; margin-right: 15px;
+}
+.n_list li.special .n_text{
+	width: 166px; float: left;
+}
+.t_list{
+	margin-top: 10px;
+}
+.b_wrap li.special .n_text b, .b_wrap .h_text b{
+	font-size: 13px; color: #666; font-weight: normal; display: inline-block; line-height: 1.8em;
+}
+.n_list li.special .n_text p, .b_wrap .h_text p{
+	line-height: 1.8em; color: #999; margin-top: 4px;
+}
+.n_list li.special .n_img img, .about .b_wrap .a_img img{
+	width: 100%; height: 100%;
+}
+.about, .news, .teachers, .resource{
+	width: 740px;
+}
+.hot, .course, .exam{
+	width: 320px;
+}
+/*---------about start----------*/
+.about{
+	height: 331px; overflow: hidden;
+}
+.about .b_wrap .a_img{
+	width: 330px; height: 236px; margin-right: 26px; border: solid 1px #088B69;
+}
+.about .b_wrap .a_text{
+	text-indent: 2em; width: 348px;
+}
+.news{
+	margin-top: 22px; height: 325px; overflow: hidden;
+}
+.news .b_wrap{
+	padding-bottom: 16px;
+}
+.news .n_list{
+	margin-bottom: 0;
+}
+.hot{
+	height: 680px;
+}
+.hot ul li{
+	overflow: hidden; margin-bottom: 20px;
+}
+.hot .h_img{
+	width: 80px; height: 80px; border: solid 1px #088B69; margin-right: 25px; float: left;
+}
+.hot .h_text{
+	width: 182px; float: left;
+}
+.b_wrap .h_text b, .b_wrap .h_text p{
+	line-height: 2em;
+}
+
+
+.foot{
+	width:100%;
+	text-align: center;
+	background: #E1F9F9;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-top:20px;
+}
+.foot a{
+	color: green;
+}
