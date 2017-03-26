@@ -1729,3 +1729,10 @@ a:hover{
 .foot a{
 	color: green;
 }
+
+.d-name{
+	font-size: 13px;
+}
+.d-english{
+	font-size: 13px;
+}
