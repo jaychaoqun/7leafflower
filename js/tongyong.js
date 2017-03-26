@@ -304,5 +304,5 @@ function getStyle(obj,name)
 	   
 	 
   }
-  //arcSlip();	
+  arcSlip();	
 	
