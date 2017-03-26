@@ -101,10 +101,10 @@ body { width: 100%;  padding: 0; margin: 0; line-height: 1.5; position:relative;
 }
 
 .shapeAim{
-    -webkit-animation: spin 8s infinite linear;
-    -o-animation: spin 8s infinite linear;
-    -moz-animation: spin 8s infinite linear;
-    animation: spin 8s infinite linear;
+    -webkit-animation: spin 11s infinite linear;
+    -o-animation: spin 11s infinite linear;
+    -moz-animation: spin 11s infinite linear;
+    animation: spin 11s infinite linear;
 }
 
 @-webkit-keyframes spin {
