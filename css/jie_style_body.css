@@ -4,15 +4,6 @@ body { width: 100%;  padding: 0; margin: 0; line-height: 1.5; position:relative;
 .buy .all_netadd{ width: 462px; padding-left: 0; padding-right: 10px; }
 #shop_list{ height: 272px; overflow: hidden; }
 
-.foot{
-	width:100%;
-	text-align: center;
-	background: #E1F9F9;
-	
-}
-.foot a{
-	color: green;
-}
 .erweima{position: fixed;z-index:999;bottom: 100px;right: 20px;width:100px;height: 100px;text-align: center;}
 
 
@@ -557,7 +548,7 @@ a:hover{
 .foot{
 	width:100%;
 	text-align: center;
-	background: #E1F9F9;
+	background: #cdf5af;
 	padding-bottom:20px;
 	margin-top:20px;
 	margin-top:20px;
